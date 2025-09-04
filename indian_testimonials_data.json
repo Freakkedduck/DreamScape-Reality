@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Priya Sharma",
+    "type": "Home Buyer",
+    "location": "Mumbai, Maharashtra",
+    "testimonial": "DreamScape Reality made it possible for me to tour 8 different properties in one afternoon without leaving my home in Andheri. The VR experience was so realistic, I felt like I was actually walking through each apartment. I ended up buying a beautiful 2BHK in Bandra that I initially discovered through their virtual tour!",
+    "rating": 5
+  },
+  {
+    "name": "Rajesh Gupta",
+    "type": "Real Estate Agent",
+    "location": "New Delhi",
+    "testimonial": "Since implementing DreamScape Reality's VR tours, my client engagement has increased by 60%. NRI buyers especially love being able to explore Delhi properties remotely from abroad. It's helped me close deals 30% faster than traditional site visits.",
+    "rating": 5
+  },
+  {
+    "name": "Anita Reddy",
+    "type": "Property Investor",
+    "location": "Hyderabad, Telangana",
+    "testimonial": "As someone who invests in properties across Chennai, Bangalore, and Hyderabad, DreamScape Reality has been a game-changer. I can now evaluate investment opportunities without the time and expense of traveling between cities. The virtual tours are incredibly detailed and accurate.",
+    "rating": 5
+  },
+  {
+    "name": "Vikram Patel",
+    "type": "First-Time Buyer",
+    "location": "Pune, Maharashtra",
+    "testimonial": "Being a first-time homebuyer in Pune's competitive market was intimidating, but DreamScape Reality's VR tours helped me understand what to look for in a property. I could revisit the virtual tours multiple times and even show them to my parents for their input. It made the whole process so much easier!",
+    "rating": 5
+  },
+  {
+    "name": "Kavya Nair",
+    "type": "Realtor",
+    "location": "Kochi, Kerala",
+    "testimonial": "My clients love the convenience of VR tours, especially during monsoon season when site visits are difficult. They can narrow down their choices before we schedule physical visits, which saves everyone time. The technology is impressive and really sets my listings apart from other agents in Kochi.",
+    "rating": 5
+  },
+  {
+    "name": "Arjun Singh",
+    "type": "NRI Buyer",
+    "location": "Dubai, UAE (Originally from Delhi)",
+    "testimonial": "Moving back to India from Dubai seemed challenging until I discovered DreamScape Reality. I was able to tour dozens of apartments in Noida and Gurgaon virtually and found the perfect home for my family. The VR experience was so detailed I knew exactly what to expect when I visited India.",
+    "rating": 5
+  }
+]

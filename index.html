@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DreamScape Reality - Revolutionary VR Property Tours Across India</title>
+    <meta name="description" content="Step into your future home with DreamScape Reality's cutting-edge VR technology for property tours across India. Revolutionizing Indian real estate with immersive virtual experiences.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Toast Notification Container -->
+    <div id="toastContainer" class="toast-container"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <div class="nav-brand">
+                    <h2>DreamScape Reality</h2>
+                </div>
+                <div class="nav-menu" id="navMenu">
+                    <a href="#home" class="nav-link">Home</a>
+                    <a href="#about" class="nav-link">About</a>
+                    <a href="#how-it-works" class="nav-link">How It Works</a>
+                    <a href="#benefits" class="nav-link">Benefits</a>
+                    <a href="#properties" class="nav-link">Properties</a>
+                    <a href="#contact" class="nav-link">Contact</a>
+                    <a href="#admin" class="nav-link admin-link">Admin</a>
+                </div>
+                <button class="nav-toggle" id="navToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg">
+            <div class="hero-image">🏙️ Virtual Tours Across India</div>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Step Into Your Future Home with DreamScape Reality</h1>
+                <p class="hero-subtitle">Revolutionizing property tours across India through immersive VR technology</p>
+                <div class="hero-actions">
+                    <button class="btn btn--primary btn--lg" onclick="openDemoModal()">Book a Demo</button>
+                    <button class="btn btn--outline btn--lg" onclick="scrollToSection('properties')">Explore Properties</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Overview -->
+    <section class="features-overview">
+        <div class="container">
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🏠</div>
+                    <h3>Immersive VR Tours</h3>
+                    <p>Walk through 2BHK, 3BHK properties as if you're really there</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🌍</div>
+                    <h3>Pan-India Access</h3>
+                    <p>Tour properties from Mumbai to Bangalore from anywhere</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h3>Monsoon-Ready</h3>
+                    <p>Skip site visits during monsoons - tour virtually</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📊</div>
+                    <h3>NRI-Friendly</h3>
+                    <p>Perfect for NRI buyers investing in Indian properties</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section id="how-it-works" class="how-it-works">
+        <div class="container">
+            <div class="section-header">
+                <h2>How It Works</h2>
+                <p>Experience the future of property tours across Indian cities in four simple steps</p>
+            </div>
+            <div class="steps-grid">
+                <div class="step-card">
+                    <div class="step-number">1</div>
+                    <h3>Choose a Property</h3>
+                    <p>Browse our extensive portfolio across major Indian cities</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">2</div>
+                    <h3>Enter VR Experience</h3>
+                    <p>Put on your VR headset or use our web-based 3D viewer from home</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">3</div>
+                    <h3>Explore as if You're There</h3>
+                    <p>Walk through rooms, check balconies, examine every detail</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">4</div>
+                    <h3>Make Confident Decisions</h3>
+                    <p>Schedule physical visits or make offers without site visit hassles</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section id="benefits" class="benefits">
+        <div class="container">
+            <div class="section-header">
+                <h2>For Indian Buyers & Realtors</h2>
+                <p>Transforming Indian real estate for everyone</p>
+            </div>
+            <div class="benefits-grid">
+                <div class="benefit-column">
+                    <h3>For Indian Buyers</h3>
+                    <div class="benefit-list">
+                        <div class="benefit-item">
+                            <div class="benefit-icon">✓</div>
+                            <div>
+                                <h4>Immersive Experience</h4>
+                                <p>Feel like you're actually walking through 2BHK, 3BHK apartments</p>
+                            </div>
+                        </div>
+                        <div class="benefit-item">
+                            <div class="benefit-icon">✓</div>
+                            <div>
+                                <h4>Monsoon-Proof Tours</h4>
+                                <p>No need to brave Mumbai traffic or monsoon rains for site visits</p>
+                            </div>
+                        </div>
+                        <div class="benefit-item">
+                            <div class="benefit-icon">✓</div>
+                            <div>
+                                <h4>Perfect for NRI Buyers</h4>
+                                <p>Explore Indian properties from anywhere in the world</p>
+                            </div>
+                        </div>
+                        <div class="benefit-item">
+                            <div class="benefit-icon">✓</div>
+                            <div>
+                                <h4>Multi-City Access</h4>
+                                <p>Tour properties in Delhi, Mumbai, Bangalore in one day</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="benefit-column">
+                    <h3>For Indian Realtors</h3>
+                    <div class="benefit-list">
+                        <div class="benefit-item">
+                            <div class="benefit-icon">✓</div>
+                            <div>
+                                <h4>Wider Reach Across India</h4>
+                                <p>Attract NRI buyers and clients from other cities</p>
+                            </div>
+                        </div>
+                        <div class="benefit-item">
+                            <div class="benefit-icon">✓</div>
+                            <div>
+                                <h4>Weather-Independent Sales</h4>
+                                <p>Continue selling during monsoons and extreme weather</p>
+                            </div>
+                        </div>
+                        <div class="benefit-item">
+                            <div class="benefit-icon">✓</div>
+                            <div>
+                                <h4>Faster Sales Cycle</h4>
+                                <p>Reduce time between property listing and closing deals</p>
+                            </div>
+                        </div>
+                        <div class="benefit-item">
+                            <div class="benefit-icon">✓</div>
+                            <div>
+                                <h4>Cost-Effective</h4>
+                                <p>Save on petrol costs and travel time for property showings</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-number">95%</div>
+                    <div class="stat-label">Client Satisfaction</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">30%</div>
+                    <div class="stat-label">Sales Increase</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">70%</div>
+                    <div class="stat-label">Time Saved</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">25+</div>
+                    <div class="stat-label">Indian Cities</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Properties Showcase -->
+    <section id="properties" class="properties">
+        <div class="container">
+            <div class="section-header">
+                <h2>Featured Properties Across India</h2>
+                <p>Explore our VR-enabled property portfolio in major Indian cities</p>
+            </div>
+            <div class="properties-filters">
+                <button class="filter-btn active" data-filter="all">All Properties</button>
+                <button class="filter-btn" data-filter="Apartment">Apartments</button>
+                <button class="filter-btn" data-filter="Villa">Villas</button>
+                <button class="filter-btn" data-filter="Commercial">Commercial</button>
+                <button class="filter-btn" data-filter="Penthouse">Penthouses</button>
+                <button class="filter-btn" data-filter="Townhouse">Townhouses</button>
+            </div>
+            <div class="properties-grid" id="propertiesGrid">
+                <!-- Properties will be loaded here by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2>What Our Indian Clients Say</h2>
+                <p>Hear from buyers, NRI investors, and realtors across India</p>
+            </div>
+            <div class="testimonials-slider">
+                <div class="testimonials-container" id="testimonialsContainer">
+                    <!-- Testimonials will be loaded here by JavaScript -->
+                </div>
+                <div class="slider-controls">
+                    <button class="slider-btn" id="prevBtn">‹</button>
+                    <button class="slider-btn" id="nextBtn">›</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>About DreamScape Reality India</h2>
+                <p>Bridging Indian real estate with cutting-edge VR technology</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <div class="about-card">
+                        <h3>Our Mission</h3>
+                        <p>To revolutionize the Indian real estate experience by making property tours accessible, convenient, and immersive for buyers across India and NRI investors worldwide.</p>
+                    </div>
+                    <div class="about-card">
+                        <h3>Why India Needs VR Tours</h3>
+                        <p>With monsoon seasons, traffic congestion in cities like Mumbai and Bangalore, and the growing NRI investor community, virtual property tours solve unique Indian challenges while providing an unparalleled viewing experience.</p>
+                    </div>
+                    <div class="about-card">
+                        <h3>Innovation for India</h3>
+                        <p>We understand the Indian real estate market - from 1BHK studios in Mumbai to luxury villas in Goa. Our VR technology is tailored for Indian properties, terminologies, and buyer preferences.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Get in Touch with DreamScape Reality</h2>
+                <p>Ready to revolutionize your Indian property experience?</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-form-container">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name" class="form-label">Full Name *</label>
+                            <input type="text" id="name" name="name" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="form-label">Email Address *</label>
+                            <input type="email" id="email" name="email" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone" class="form-label">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" class="form-control" placeholder="+91 98765 43210">
+                        </div>
+                        <div class="form-group">
+                            <label for="queryType" class="form-label">Query Type *</label>
+                            <select id="queryType" name="queryType" class="form-control" required>
+                                <option value="">Select query type</option>
+                                <option value="general">General Inquiry</option>
+                                <option value="demo">Demo Request</option>
+                                <option value="property">Property Inquiry</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message" class="form-label">Message *</label>
+                            <textarea id="message" name="message" class="form-control" rows="4" placeholder="Tell us about your requirements..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn--primary btn--full-width">
+                            <span class="btn-text">Send Message</span>
+                            <span class="btn-spinner hidden">Sending...</span>
+                        </button>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <div class="contact-details">
+                        <h3>Get in Touch</h3>
+                        <div class="contact-item">
+                            <strong>Email:</strong> hello@dreamscapereality.in
+                        </div>
+                        <div class="contact-item">
+                            <strong>Phone:</strong> +91 98765 43210
+                        </div>
+                        <div class="office-locations">
+                            <h4>Our Offices</h4>
+                            <div class="office-item">
+                                <strong>Mumbai:</strong><br>
+                                Floor 12, One BKC, Bandra Kurla Complex, Mumbai 400051
+                            </div>
+                            <div class="office-item">
+                                <strong>Bangalore:</strong><br>
+                                Level 8, UB City Mall, Vittal Mallya Road, Bangalore 560001
+                            </div>
+                            <div class="office-item">
+                                <strong>Delhi:</strong><br>
+                                Tower A, DLF Cyber City, Sector 25, Gurgaon 122002
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Admin Section -->
+    <section id="admin" class="admin">
+        <div class="container">
+            <div class="section-header">
+                <h2>Admin Dashboard</h2>
+                <p>Manage queries and bookings</p>
+            </div>
+            
+            <!-- Admin Login -->
+            <div class="admin-login" id="adminLogin">
+                <div class="admin-login-form">
+                    <h3>Admin Login</h3>
+                    <form id="adminLoginForm">
+                        <div class="form-group">
+                            <label for="adminPassword" class="form-label">Password</label>
+                            <input type="password" id="adminPassword" name="password" class="form-control" required>
+                        </div>
+                        <button type="submit" class="btn btn--primary btn--full-width">Login</button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Admin Panel -->
+            <div class="admin-panel hidden" id="adminPanel">
+                <div class="admin-tabs">
+                    <button class="admin-tab-btn active" data-tab="contacts">Contact Messages</button>
+                    <button class="admin-tab-btn" data-tab="bookings">Demo Bookings</button>
+                    <button class="admin-tab-btn" data-tab="inquiries">Property Inquiries</button>
+                </div>
+
+                <div class="admin-content">
+                    <div class="admin-tab-content active" id="contacts">
+                        <div class="admin-table-container">
+                            <table class="admin-table">
+                                <thead>
+                                    <tr>
+                                        <th>Date</th>
+                                        <th>Name</th>
+                                        <th>Email</th>
+                                        <th>Query Type</th>
+                                        <th>Status</th>
+                                        <th>Actions</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="contactsTable">
+                                    <!-- Contacts will be loaded here -->
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <div class="admin-tab-content" id="bookings">
+                        <div class="admin-table-container">
+                            <table class="admin-table">
+                                <thead>
+                                    <tr>
+                                        <th>Date</th>
+                                        <th>Name</th>
+                                        <th>Email</th>
+                                        <th>Preferred Date</th>
+                                        <th>Property Interest</th>
+                                        <th>Status</th>
+                                        <th>Actions</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="bookingsTable">
+                                    <!-- Bookings will be loaded here -->
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <div class="admin-tab-content" id="inquiries">
+                        <div class="admin-table-container">
+                            <table class="admin-table">
+                                <thead>
+                                    <tr>
+                                        <th>Date</th>
+                                        <th>Name</th>
+                                        <th>Email</th>
+                                        <th>Property</th>
+                                        <th>Status</th>
+                                        <th>Actions</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="inquiriesTable">
+                                    <!-- Inquiries will be loaded here -->
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Demo Booking Modal -->
+    <div class="modal hidden" id="demoModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Book Your VR Demo</h3>
+                <button class="modal-close" onclick="closeDemoModal()">&times;</button>
+            </div>
+            <form class="demo-form" id="demoForm">
+                <div class="form-group">
+                    <label for="demoName" class="form-label">Full Name *</label>
+                    <input type="text" id="demoName" name="name" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="demoEmail" class="form-label">Email Address *</label>
+                    <input type="email" id="demoEmail" name="email" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="demoPhone" class="form-label">Phone Number *</label>
+                    <input type="tel" id="demoPhone" name="phone" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="preferredDate" class="form-label">Preferred Date</label>
+                    <input type="date" id="preferredDate" name="preferredDate" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="propertyInterest" class="form-label">Property Interest</label>
+                    <select id="propertyInterest" name="propertyInterest" class="form-control">
+                        <option value="">Select property type</option>
+                        <option value="apartment">Apartment (1BHK, 2BHK, 3BHK)</option>
+                        <option value="villa">Villa</option>
+                        <option value="penthouse">Penthouse</option>
+                        <option value="commercial">Commercial Space</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="budgetRange" class="form-label">Budget Range</label>
+                    <select id="budgetRange" name="budgetRange" class="form-control">
+                        <option value="">Select budget range</option>
+                        <option value="50L-1Cr">₹50 Lakhs - ₹1 Crore</option>
+                        <option value="1Cr-2Cr">₹1 Crore - ₹2 Crores</option>
+                        <option value="2Cr-5Cr">₹2 Crores - ₹5 Crores</option>
+                        <option value="5Cr+">₹5 Crores+</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="demoCity" class="form-label">Interested City</label>
+                    <select id="demoCity" name="city" class="form-control">
+                        <option value="">Select a city</option>
+                        <option value="mumbai">Mumbai</option>
+                        <option value="delhi">Delhi/NCR</option>
+                        <option value="bangalore">Bangalore</option>
+                        <option value="hyderabad">Hyderabad</option>
+                        <option value="pune">Pune</option>
+                        <option value="chennai">Chennai</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn btn--primary btn--full-width">
+                    <span class="btn-text">Book Demo</span>
+                    <span class="btn-spinner hidden">Booking...</span>
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Property Inquiry Modal -->
+    <div class="modal hidden" id="propertyModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Property Inquiry</h3>
+                <button class="modal-close" onclick="closePropertyModal()">&times;</button>
+            </div>
+            <form class="property-inquiry-form" id="propertyInquiryForm">
+                <input type="hidden" id="propertyId" name="propertyId">
+                <div class="property-info" id="selectedPropertyInfo">
+                    <!-- Property details will be populated here -->
+                </div>
+                <div class="form-group">
+                    <label for="inquiryName" class="form-label">Full Name *</label>
+                    <input type="text" id="inquiryName" name="name" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="inquiryEmail" class="form-label">Email Address *</label>
+                    <input type="email" id="inquiryEmail" name="email" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="inquiryPhone" class="form-label">Phone Number *</label>
+                    <input type="tel" id="inquiryPhone" name="phone" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="inquiryMessage" class="form-label">Message</label>
+                    <textarea id="inquiryMessage" name="message" class="form-control" rows="4" placeholder="Any specific questions about this property..."></textarea>
+                </div>
+                <button type="submit" class="btn btn--primary btn--full-width">
+                    <span class="btn-text">Send Inquiry</span>
+                    <span class="btn-spinner hidden">Sending...</span>
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>DreamScape Reality India</h3>
+                    <p>Revolutionizing Indian property tours through immersive VR technology.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#how-it-works">How It Works</a></li>
+                        <li><a href="#properties">Properties</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#benefits">For Buyers</a></li>
+                        <li><a href="#benefits">For Realtors</a></li>
+                        <li><a href="#benefits">NRI Services</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Newsletter</h4>
+                    <p>Stay updated with Indian VR real estate trends</p>
+                    <form class="newsletter-form" id="newsletterForm">
+                        <input type="email" name="email" placeholder="Enter your email" class="form-control" required>
+                        <button type="submit" class="btn btn--primary">
+                            <span class="btn-text">Subscribe</span>
+                            <span class="btn-spinner hidden">...</span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 DreamScape Reality India. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

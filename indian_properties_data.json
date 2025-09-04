@@ -1,0 +1,104 @@
+[
+  {
+    "id": 1,
+    "title": "Modern Luxury Apartment",
+    "type": "Apartment",
+    "location": "Bandra West, Mumbai",
+    "price": "\u20b98.5 Crores",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "area": "1,950 sq ft",
+    "features": [
+      "VR Tour Available",
+      "Smart Home",
+      "Sea View",
+      "Balcony"
+    ],
+    "vr_tour": "Available"
+  },
+  {
+    "id": 2,
+    "title": "Executive Villa",
+    "type": "Villa",
+    "location": "Jubilee Hills, Hyderabad",
+    "price": "\u20b912 Crores",
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "area": "3,200 sq ft",
+    "features": [
+      "VR Tour Available",
+      "Swimming Pool",
+      "Garden",
+      "Car Parking"
+    ],
+    "vr_tour": "Available"
+  },
+  {
+    "id": 3,
+    "title": "Commercial Office Space",
+    "type": "Commercial",
+    "location": "Cyber City, Gurgaon",
+    "price": "\u20b92,50,000/month",
+    "bedrooms": "N/A",
+    "bathrooms": 2,
+    "area": "1,680 sq ft",
+    "features": [
+      "VR Tour Available",
+      "Conference Room",
+      "Reserved Parking",
+      "Modern Interiors"
+    ],
+    "vr_tour": "Available"
+  },
+  {
+    "id": 4,
+    "title": "Cozy Studio Apartment",
+    "type": "Apartment",
+    "location": "Koramangala, Bangalore",
+    "price": "\u20b985 Lakhs",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "area": "780 sq ft",
+    "features": [
+      "VR Tour Available",
+      "Exposed Brick",
+      "High Ceilings",
+      "Natural Light"
+    ],
+    "vr_tour": "Available"
+  },
+  {
+    "id": 5,
+    "title": "Luxury Penthouse",
+    "type": "Penthouse",
+    "location": "Worli, Mumbai",
+    "price": "\u20b932 Crores",
+    "bedrooms": 5,
+    "bathrooms": 4,
+    "area": "3,900 sq ft",
+    "features": [
+      "VR Tour Available",
+      "Panoramic City Views",
+      "Private Lift",
+      "Terrace Garden"
+    ],
+    "vr_tour": "Available"
+  },
+  {
+    "id": 6,
+    "title": "Family Townhouse",
+    "type": "Townhouse",
+    "location": "DLF Phase 3, Gurgaon",
+    "price": "\u20b94.5 Crores",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "area": "2,200 sq ft",
+    "features": [
+      "VR Tour Available",
+      "Backyard",
+      "Double Car Garage",
+      "Modular Kitchen"
+    ],
+    "vr_tour": "Available"
+  }
+]
